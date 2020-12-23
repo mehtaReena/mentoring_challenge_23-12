@@ -56,5 +56,5 @@ function isValid(searchString) {
 }
 
 
- console.log(keypadToWords('23'));
+ //console.log(keypadToWords('23'));
 
