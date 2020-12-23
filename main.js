@@ -45,8 +45,7 @@ function keypadToWords(keyStrokes) {
 }
 
 function isValid(searchString) {
-  let temp = "";
-
+  
   const data = fs.readFileSync('english_words.txt',
     { encoding: 'utf8', flag: 'r' });
 
@@ -56,5 +55,5 @@ function isValid(searchString) {
 }
 
 
- console.log(keypadToWords('23'));
+ //console.log(keypadToWords('23'));
 
